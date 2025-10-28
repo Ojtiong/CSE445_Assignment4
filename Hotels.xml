@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Hotels>
+	<Hotel id="H100" Rating="4.2">
+		<Name>Westin Tempe</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H101" Rating="4.5">
+		<Name>Arizona Biltmore, A Waldorf Astoria Resort</Name>
+		<Phone>602-955-6600</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>2400</Number>
+			<Street>E Missouri Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85016</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H102">
+		<Name>Sanctuary Camelback Mountain</Name>
+		<Phone>480-948-2100</Phone>
+		<Phone>480-555-0102</Phone>
+		<Address>
+			<Number>5700</Number>
+			<Street>East McDonald Drive</Street>
+			<City>Paradise Valley</City>
+			<State>AZ</State>
+			<Zip>85253</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H103" Rating="4.1">
+		<Name>Hyatt Regency Scottsdale Resort</Name>
+		<Phone>480-444-1234</Phone>
+		<Address NearestAirport="Phoenix Sky Harbor">
+			<Number>7500</Number>
+			<Street>E Doubletree Ranch Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85258</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H104" Rating="4.0">
+		<Name>The Phoenician</Name>
+		<Phone>480-941-8200</Phone>
+		<Address>
+			<Number>6000</Number>
+			<Street>E Camelback Rd</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85016</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H105">
+		<Name>Omni Scottsdale Resort &amp; Spa</Name>
+		<Phone>480-948-2100</Phone>
+		<Phone>480-555-0199</Phone>
+		<Address NearestAirport="Scottsdale Airport">
+			<Number>4949</Number>
+			<Street>E Shea Blvd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85254</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H106" Rating="3.9">
+		<Name>Hotel Valley Ho</Name>
+		<Phone>602-253-4500</Phone>
+		<Address>
+			<Number>6850</Number>
+			<Street>E Main St</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85251</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H107" Rating="4.3">
+		<Name>Royal Palms Resort and Spa</Name>
+		<Phone>480-249-5777</Phone>
+		<Phone>480-555-0133</Phone>
+		<Address>
+			<Number>5200</Number>
+			<Street>E Camelback Rd</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85018</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H108">
+		<Name>Found:Re Phoenix</Name>
+		<Phone>602-730-2800</Phone>
+		<Address>
+			<Number>1100</Number>
+			<Street>N Central Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H109" Rating="4.6">
+		<Name>Arizona Grand Resort &amp; Spa</Name>
+		<Phone>602-438-9000</Phone>
+		<Phone>800-222-5367</Phone>
+		<Address NearestAirport="Phoenix Sky Harbor">
+			<Number>8000</Number>
+			<Street>S Arizona Grand Pkwy</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85044</Zip>
+		</Address>
+	</Hotel>
+</Hotels>
+
