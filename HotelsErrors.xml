@@ -6,7 +6,7 @@
 		<Name>Westin Tempe</Name>
 		<Phone>480-968-8885</Phone>
 		<Phone>800-937-8461</Phone>
-		<Address>
+		<Address NearestAirport="Phoenix Sky Harbor International Airport">
 			<Number>11</Number>
 			<Street>E 7th St</Street>
 			<City>Tempe</City>
@@ -18,7 +18,7 @@
 	<!-- Phone element missing -->
 	<Hotel Rating="4.5">
 		<Name>Arizona Biltmore, A Waldorf Astoria Resort</Name>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearestAirport="Phoenix Sky Harbor International Airport">
 			<Number>2400</Number>
 			<Street>E Missouri Ave</Street>
 			<City>Phoenix</City>
@@ -32,7 +32,7 @@
 		<Name>Sanctuary Camelback Mountain</Name>
 		<Phone>480-948-2100</Phone>
 		<Phone>480-555-0102</Phone>
-		<Address>
+		<Address NearestAirport="Scottsdale Airport">
 			<Number>5700</Number>
 			<Street>East McDonald Drive</Street>
 			<City>Paradise Valley</City>
@@ -45,7 +45,7 @@
 		<Name>Hyatt Regency Scottsdale Resort</Name>
 		<Name>Second Name</Name>
 		<Phone>480-444-1234</Phone>
-		<Address NearestAirport="Phoenix Sky Harbor">
+		<Address NearestAirport="Phoenix Sky Harbor International Airport">
 			<Number>7500</Number>
 			<Street>E Doubletree Ranch Rd</Street>
 			<City>Scottsdale</City>
@@ -57,7 +57,7 @@
 	<Hotel Rating="4.0">
 		<Name>The Phoenician</Name>
 		<Phone>480-941-8200</Phone>
-		<Address>
+		<Address NearestAirport="Phoenix Sky Harbor International Airport">
 			<Number>6000</Number>
 			<Street>E Camelback Rd</Street>
 			<City>Phoenix</City>
@@ -82,7 +82,7 @@
 	<Hotel Rating="3.9">
 		<Name>Hotel Valley Ho</Name>
 		<Phone>602-253-4500</Phone>
-		<Address>
+		<Address NearestAirport="Phoenix Sky Harbor International Airport">
 			<Number>6850</Number>
 			<Street>E Main St</Street>
 			<City>Scottsdale</City>
@@ -95,7 +95,7 @@
 		<Name>Royal Palms Resort and Spa</Name>
 		<Phone>480-249-5777</Phone>
 		<Phone>480-555-0133</Phone>
-		<Address>
+		<Address NearestAirport="Phoenix Sky Harbor International Airport">
 			<Number>5200</Number>
 			<Street>E Camelback Rd</Street>
 			<City>Phoenix</City>
@@ -107,7 +107,7 @@
 	<Hotel>
 		<Name>Found:Re Phoenix</Name>
 		<Phone>602-730-2800</Phone>
-		<Address>
+		<Address NearestAirport="Phoenix Sky Harbor International Airport">
 			<Number>1100</Number>
 			<Street>N Central Ave</Street>
 			<City>Phoenix</City>
@@ -120,7 +120,7 @@
 		<Name>Arizona Grand Resort &amp; Spa</Name>
 		<Phone>602-438-9000</Phone>
 		<Phone>800-222-5367</Phone>
-		<Address NearestAirport="Phoenix Sky Harbor">
+		<Address NearestAirport="Phoenix Sky Harbor International Airport">
 			<Number>8000</Number>
 			<Street>S Arizona Grand Pkwy</Street>
 			<City>Phoenix</City>
