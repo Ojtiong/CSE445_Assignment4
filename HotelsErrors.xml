@@ -79,7 +79,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel id="H106" Rating="3.9">
+	<Hotel Rating="3.9">
 		<Name>Hotel Valley Ho</Name>
 		<Phone>602-253-4500</Phone>
 		<Address>
@@ -91,7 +91,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel id="H107" Rating="4.3">
+	<Hotel Rating="4.3">
 		<Name>Royal Palms Resort and Spa</Name>
 		<Phone>480-249-5777</Phone>
 		<Phone>480-555-0133</Phone>
@@ -104,7 +104,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel id="H108">
+	<Hotel>
 		<Name>Found:Re Phoenix</Name>
 		<Phone>602-730-2800</Phone>
 		<Address>
@@ -116,7 +116,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel id="H109" Rating="4.6">
+	<Hotel Rating="4.6">
 		<Name>Arizona Grand Resort &amp; Spa</Name>
 		<Phone>602-438-9000</Phone>
 		<Phone>800-222-5367</Phone>
