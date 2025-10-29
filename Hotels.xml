@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Hotels>
-	<Hotel id="H100" Rating="4.2">
+	<Hotel Rating="4.2">
 		<Name>Westin Tempe</Name>
 		<Phone>480-968-8885</Phone>
 		<Phone>800-937-8461</Phone>
@@ -13,7 +13,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel id="H101" Rating="4.5">
+	<Hotel Rating="4.5">
 		<Name>Arizona Biltmore, A Waldorf Astoria Resort</Name>
 		<Phone>602-955-6600</Phone>
 		<Address NearestAirport="Sky Harbor">
@@ -25,7 +25,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel id="H102">
+	<Hotel>
 		<Name>Sanctuary Camelback Mountain</Name>
 		<Phone>480-948-2100</Phone>
 		<Phone>480-555-0102</Phone>
@@ -38,7 +38,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel id="H103" Rating="4.1">
+	<Hotel Rating="4.1">
 		<Name>Hyatt Regency Scottsdale Resort</Name>
 		<Phone>480-444-1234</Phone>
 		<Address NearestAirport="Phoenix Sky Harbor">
@@ -50,7 +50,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel id="H104" Rating="4.0">
+	<Hotel Rating="4.0">
 		<Name>The Phoenician</Name>
 		<Phone>480-941-8200</Phone>
 		<Address>
@@ -62,7 +62,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel id="H105">
+	<Hotel>
 		<Name>Omni Scottsdale Resort &amp; Spa</Name>
 		<Phone>480-948-2100</Phone>
 		<Phone>480-555-0199</Phone>

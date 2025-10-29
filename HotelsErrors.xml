@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Root is Hotel-->
 <Hotel>
-	<!-- Valid-ish hotel to start -->
-	<Hotel id="H200" Rating="4.2">
+	<!-- Required element missing-->
+	<Hotel Rating="4.2">
 		<Name>Westin Tempe</Name>
 		<Phone>480-968-8885</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Phone>800-937-8461</Phone>
+		<Address>
 			<Number>11</Number>
 			<Street>E 7th St</Street>
 			<City>Tempe</City>
@@ -12,57 +14,119 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Error 2: missing required attribute 'id' -->
-	<Hotel Rating="4.0">
-		<Name>Hotel Missing ID</Name>
-		<Phone>480-000-0000</Phone>
-		<Address>
-			<Number>1</Number>
-			<Street>Nowhere St</Street>
-			<City>Nowhere</City>
+	
+	<!-- Phone element missing -->
+	<Hotel Rating="4.5">
+		<Name>Arizona Biltmore, A Waldorf Astoria Resort</Name>
+		<Address NearestAirport="Sky Harbor">
+			<Number>2400</Number>
+			<Street>E Missouri Ave</Street>
+			<City>Phoenix</City>
 			<State>AZ</State>
-			<Zip>00000</Zip>
+			<Zip>85016</Zip>
 		</Address>
 	</Hotel>
 
-	<!-- Error 3: missing Phone element -->
-	<Hotel id="H_ERR_NO_PHONE" Rating="3.5">
-		<Name>Hotel With No Phone</Name>
+	<!-- Address has no closing tags -->
+	<Hotel>
+		<Name>Sanctuary Camelback Mountain</Name>
+		<Phone>480-948-2100</Phone>
+		<Phone>480-555-0102</Phone>
 		<Address>
-			<Number>2</Number>
-			<Street>Example Ave</Street>
-			<City>Example</City>
+			<Number>5700</Number>
+			<Street>East McDonald Drive</Street>
+			<City>Paradise Valley</City>
 			<State>AZ</State>
-			<Zip>11111</Zip>
-		</Address>
+			<Zip>85253</Zip>
 	</Hotel>
-
-	<!-- Error 4: Address with no closing tag (malformed) -->
-	<Hotel id="H_ERR_BAD_ADDRESS" Rating="2.8">
-		<Name>Hotel Bad Address</Name>
-		<Phone>480-111-2222</Phone>
-		<Address>
-			<Number>3</Number>
-			<Street>Broken Rd</Street>
-			<City>BrokenCity</City>
-			<State>AZ</State>
-			<Zip>
-				22222
-				<!-- missing </Address> and missing closing tags for this address -->
-			</Hotel>
-
-	<!-- Error 5: Two Name elements -->
-	<Hotel id="H_ERR_TWO_NAMES" Rating="4.7">
-		<Name>First Name</Name>
+	
+	<!-- Two names provided-->
+	<Hotel Rating="4.1">
+		<Name>Hyatt Regency Scottsdale Resort</Name>
 		<Name>Second Name</Name>
-		<Phone>480-333-4444</Phone>
-		<Address>
-			<Number>4</Number>
-			<Street>DoubleName St</Street>
-			<City>Dual</City>
+		<Phone>480-444-1234</Phone>
+		<Address NearestAirport="Phoenix Sky Harbor">
+			<Number>7500</Number>
+			<Street>E Doubletree Ranch Rd</Street>
+			<City>Scottsdale</City>
 			<State>AZ</State>
-			<Zip>33333</Zip>
+			<Zip>85258</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.0">
+		<Name>The Phoenician</Name>
+		<Phone>480-941-8200</Phone>
+		<Address>
+			<Number>6000</Number>
+			<Street>E Camelback Rd</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85016</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Omni Scottsdale Resort &amp; Spa</Name>
+		<Phone>480-948-2100</Phone>
+		<Phone>480-555-0199</Phone>
+		<Address NearestAirport="Scottsdale Airport">
+			<Number>4949</Number>
+			<Street>E Shea Blvd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85254</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H106" Rating="3.9">
+		<Name>Hotel Valley Ho</Name>
+		<Phone>602-253-4500</Phone>
+		<Address>
+			<Number>6850</Number>
+			<Street>E Main St</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85251</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H107" Rating="4.3">
+		<Name>Royal Palms Resort and Spa</Name>
+		<Phone>480-249-5777</Phone>
+		<Phone>480-555-0133</Phone>
+		<Address>
+			<Number>5200</Number>
+			<Street>E Camelback Rd</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85018</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H108">
+		<Name>Found:Re Phoenix</Name>
+		<Phone>602-730-2800</Phone>
+		<Address>
+			<Number>1100</Number>
+			<Street>N Central Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel id="H109" Rating="4.6">
+		<Name>Arizona Grand Resort &amp; Spa</Name>
+		<Phone>602-438-9000</Phone>
+		<Phone>800-222-5367</Phone>
+		<Address NearestAirport="Phoenix Sky Harbor">
+			<Number>8000</Number>
+			<Street>S Arizona Grand Pkwy</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85044</Zip>
 		</Address>
 	</Hotel>
 </Hotel>
+

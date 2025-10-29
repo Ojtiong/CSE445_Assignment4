@@ -19,13 +19,11 @@
 										<xs:element name="State" type="xs:string"/>
 										<xs:element name="Zip" type="xs:string"/>
 									</xs:sequence>
-									<!-- Optional attribute on Address -->
-									<xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
+									<!-- Required attribute on Address -->
+									<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
-						<!-- Required id attribute for Hotel -->
-						<xs:attribute name="id" type="xs:string" use="required"/>
 						<!-- Optional Rating attribute -->
 						<xs:attribute name="Rating" type="xs:string" use="optional"/>
 					</xs:complexType>
